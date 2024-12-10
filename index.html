@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación de Boda - Mari & José Luis</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="invitation">
+    <!-- Encabezado -->
+    <div class="header">
+      <h1>¡NOS CASAMOS!</h1>
+      <p>Con mucha ilusión y la bendición de dios <br>queremos vivir este momento rodeadao de familires y amigos<br> sera un honor contar con tu presencia.</p>
+    </div>
+
+    <!-- Detalles de la boda -->
+    <div class="details">
+      <h2 class="names">Maria De La Luz & José Luis</h2>
+    </div>
+      <!-- Ubicación -->
+      <div class="maps">
+      
+      <p class="date">Será un honor contar con su presencia <br>en la celebración de nuestra unión<br> Sabado 18 de Enero del 2025 a la 1:00pm en el</p>
+      <p class="location">Templo:<br> Santuario De Nuestra Señora De Guadalupe</p>
+      <p>Ubicación:</p>
+        <button class="map-btn" onclick="window.open('https:maps.app.goo.gl/Cnw5GJCWYSCRDni18?g_st=iw', '_blank')">
+          Santuario de Nuestra Señora De Guadalupe
+        </button>
+      </div>
+
+    
+      <!-- Ubicación -->
+      <div class="maps">
+        <p class="date">Despues de la ceremonia religiosa los esperamos en la</p>
+        <p class="location">Terraza:<br> Las Palmas Norte No.1 Camino Viejo a Santa Rosa</p>
+        <p>Ubicación:</p>
+        <button class="map-btn" onclick="window.open('https:maps.google.com/?q=Terraza%20Las%20Palmas,%201,%2060157%20Mich.&ftid=0x842de2e637e7b129:0x3ccf6fc015924179&entry=gps&lucs=,94242574,94224825,94227247,94227248,47071704,47069508,94218641,94233079,94203019,47084304,94208458,94208447&g_st=iw', '_blank')">
+          Terraza Las Palmas
+        </button>
+      </div>
+
+    <!-- Contador regresivo -->
+    <div class="countdown">
+      <h3>Cuenta regresiva:</h3>
+      <p id="countdown-timer">150 días 30:25:45</p>
+    </div>
+
+    <!-- Imágenes decorativas -->
+    <div class="images">
+      <img src="tia_Mari2.jpeg" alt="Mari y José Luis" class="image">
+      </div>
+    <div class="images">
+      <img src="tiaMari1.jpeg" alt="Hacienda Los Olivos" class="image">
+    </div>
+
+    <!-- Música -->
+    <div class="music">
+      <p>Nuestra canción especial:</p>
+      <button id="play-music-btn" class="play-btn">🎵 Reproducir Canción</button>
+      <audio id="wedding-song">
+        <source src="cancion.mp4" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!-- Confirmación -->
+    <div class="footer">
+      <p>Confirma tu asistencia antes del 1 de Junio de 2024</p>
+      <p>Favor de confirmar al:</p>
+      <button id="confirm-btn" class="rsvp-btn">45-21-81-37-98</button>
+    </div>
+  </div>
+
+  <!-- Botón de Modo Oscuro -->
+  <button id="toggle-theme" class="theme-btn">🌙 Cambiar Tema</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
